@@ -9,6 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+   
+    
+    @IBAction func iconButtonTapped(_ sender: IconButton) {
+    print("IconButton Tapped!")
+    
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
